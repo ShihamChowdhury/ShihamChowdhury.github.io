@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="about-sections">
             <div className="about-left">
-                <img src= "about_profile.jpg" width={375} height={500} alt="" />
+                <img src= "about_profile.jpg" width={550} height={600} alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
@@ -22,19 +22,23 @@ const About = () => {
                 <div className="about-skills">
                     <div className="about-skill">
                         <p>Python</p>
-                        <hr style={{width:"50%"}} />
+                        <hr style={{width:"100%"}} />
+                        <p>2+ years</p>
                     </div>
                     <div className="about-skill">
                         <p>C++</p>
-                        <hr style={{width:"70%"}} />
+                        <hr style={{width:"100%"}} />
+                        <p>3+ years</p>
                     </div>
                     <div className="about-skill">
                         <p>Java/Javascript</p>
-                        <hr style={{width:"80%"}} />
+                        <hr style={{width:"100%"}} />
+                        <p>4+ years</p>
                     </div>
                     <div className="about-skill">
                         <p>MATLAB</p>
-                        <hr style={{width:"30%"}} />
+                        <hr style={{width:"100%"}} />
+                        <p>2+ years</p>
                     </div>
                 </div>
             </div>

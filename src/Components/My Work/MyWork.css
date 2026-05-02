@@ -30,26 +30,41 @@
     gap: 40px;
 }
 
-.mywork-container img{
-    box-sizing: border-box;
-    width: 400px;
-    height: 280px;
-    transition: 0.3s;
-    cursor: pointer;
+.mywork-container h2{
+    position: relative;
+    margin-left: 140px;
+    font-size: 25px;
+}
+.mywork-container h3{
+    position: relative;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.mywork-container h4{
+    position: relative;
+    margin-left: 220px;
+    font-size: 25px;
+}
+.mywork-container h5{
+    position: relative;
+    margin-left: 210px;
+    font-size: 25px;
 }
 
-.mywork-container img:hover{
-    transform: scale(1.1);
-    border: 4px solid #f0f;
-    border-radius: 10px;
+.mywork-container img{
+    box-sizing: border-box;
+    width: 600px;
+    height: 420px;
     transition: 0.3s;
 }
 
 .mywork-description{
+    margin-top: -50px;
     gap: 0px;
 }
 
 .mywork-showmore{
+    margin-top: -50px;
     display: flex;
     gap: 15px;
     border-radius: 50px;
@@ -60,6 +75,11 @@
     margin-bottom: 80px;
     transition: 0.6s;
     cursor: pointer;
+    margin-bottom: 0;
+}
+
+.mywork-showmore p{
+    font-size: 18px;
 }
 
 .mywork-showmore:hover{

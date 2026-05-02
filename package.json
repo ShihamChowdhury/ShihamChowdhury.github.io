@@ -17,7 +17,8 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",
     "react-native-blob-util": "^0.19.11",
-    "react-native-pdf": "^6.7.5"
+    "react-native-pdf": "^6.7.5",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
